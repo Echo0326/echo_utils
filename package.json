@@ -1,12 +1,20 @@
 {
   "name": "echo-utils",
-  "version": "1.0.2",
-  "description": "测试webpack",
-  "main": "./dis/index.js",
+  "version": "1.0.7",
+  "description": "echo的js常用工具包",
+  "main": "./dist/index.js",
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "395150457@qq.com",
   "license": "MIT",
-  "keyword": "echo-utils"
+  "keyword": "echo-utils",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {}
 }
